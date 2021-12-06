@@ -1,0 +1,22 @@
+
+- manifest > is an XML file which contains important metadata about the Android app. 
+	this includes the package name. activity names. main activity (the entry point to the app), 
+	android version support. hardware features support. permissions and other configurations.
+
+- classess.dex > it contains Java bytescode in DEX format.
+- res > contains device configuration. bitmaps and layouts.
+- resources.arsc > contains compiled resources in a binary format and also include images. strings and other data used by an app
+
+
+
+	+ META-INF > this directory contains manifest information and other metadata about java package of JAR file.
+
+- manifest.mf > it contains various information used by the java run-time evniroment when load jar file such as main-class
+	version of package. build-number. creator of package. security policies/permissions of java applets.
+
+- cert.sf > this contains the list of all files along with their sha-1 digest
+- cert.ras > this contains the signed contents of the cert.sf file along with the certificate chain of the public key used
+	for signing the contents.
+
+
+

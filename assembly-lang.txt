@@ -1,0 +1,8 @@
+
+ + assembly emulator 
+	- emu8086 
+	- turbo assembler (tasm)
+	- netwide assembler (nasm)
+
+
+
