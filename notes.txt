@@ -1,0 +1,78 @@
+
+	# Major DCIM (Data Center Infrastructure Management ) software 
+		Panduit
+		CommScope
+		Sunbird Software
+		FNT
+		ABB
+		Siemens
+		Cormant
+		Device42
+		FieldView
+		CA Technologies
+		RF Code
+		
+	# NMS: viavi solutions, RiverBed
+	# Dell EMC Integrated Data Protection Appliance (IDPA)	
+	# Cloudflare alternative sites:
+			sucuri
+			imperva
+			akamai
+			indusface
+
+	  https://www-bleepingcomputer-com.cdn.ampproject.org/c/s/www.bleepingcomputer.com/news/security/critical-netmask-networking-bug-impacts-thousands-of-applications/amp/
+	  https://www.microsoft.com/security/blog/2021/03/23/secure-containerized-environments-with-updated-threat-matrix-for-kubernetes/?_lrsc=2215f5af-27b7-4d0b-abd2-ad3fbd998797	
+	  https://www.scmagazine.com/news/siem/best-siem-solution-finalists
+	  https://www.scmagazine.com/news/vulnerability-management/best-vulnerability-management-solution-finalists
+	  https://www.cisa.gov/uscert/ncas/current-activity/2021/03/17/ttp-table-detecting-apt-activity-related-solarwinds-and-active
+	  https://gbhackers-com.cdn.ampproject.org/c/s/gbhackers.com/fbi-and-cisa-warns-that-hackers-exploit-fortios-vulnerabilities/amp/
+	  https://www.blackhatethicalhacking.com/tools/cve-binary-tool/?__cf_chl_jschl_tk__=fb4263ffd88c1e34290f424ca456e22a1c6acc14-1617990305-0-AUEaiTl5VLaZtHlx0KA7KZtLfQwn8wSnsWdhnWdWzN3im3dp18AUCitt90B6FCr1KjuGDLZFxQWojmYNY3SIjUTk3F_vtFdb5CBybxOgTJqAQWN2NPCccpq0rMdDL57aiKrfJh33601S6a6s3TzLJUtBx-hwlhMoKmQB_QDi1f11hJIDmxufAJ5n4aI5UKD0Pc3IhSUeHdfCZFzqqCMoxGLBy96K3tE1wGgeZjbJik901X-d_80igbRLfACGWiITrYPhRGjDrZNndoRyzLSK-hZ3HwLiH4xuVrHVIjZ348nbbnNGDRzq9VNBDtdP9jd5YQFf352c7t-DDzUxWx9eOfA7w1poHM_pLyHqgT4sMJTCiXRbxgT7XrGZLckTu7qG6inBTIuIYIB95BJlnlO7iBY	
+	  https://www.blackhillsinfosec.com/a-sysmon-event-id-breakdown/
+	  https://amp.kitploit.com/2021/04/redcloud-automated-red-tea
+	  https://hakin9.org/t14m4t-automated-brute-forcing-attack-tool/
+	  https://www.fortiguard.com/psirt/FG-IR-18-384	
+	  https://www.sumologic.com/blog/integrating-mitre-attck-with-cloud-soar-to-optimize-secops-and-incident-response/
+	  https://www.sumologic.com/blog/uncovering-the-powers-of-cloud-soars-open-integration-framework/
+	  https://github.com/mesquidar/ForensicsTools
+	  https://github.com/itm4n/PrivescCheck
+	  https://www.hackster.io/news/luna-opens-up-high-speed-usb-analysis-and-hacking-to-everyone-2cef1326442a
+	  https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
+	  https://www.darknet.org.uk/2021/04/grype-vulnerability-scanner-for-container-images-filesystems/?utm_source=dlvr.it&utm_medium=linkedin&utm_campaign=darknetfeed
+	  
+	  https://cybersecuritynews-com.cdn.ampproject.org/c/s/cybersecuritynews.com/kubernetes-container-scanner/?amp
+	  https://gbhackers-com.cdn.ampproject.org/c/s/gbhackers.com/nsa-released-top-5-vulnerabilities-that-exploited-by-russian-hackers/amp/
+	  https://resources.trendmicro.com/AMEA-MITRE-Attack-Evaluations.html
+	  https://www.linkedin.com/posts/mashiur_microservices-nginxservicemesh-servicemesh-activity-6792746292838842368-aoUy/
+	  https://thehackernews.com/2021/04/f5-big-ip-found-vulnerable-to-kerberos.html
+	  https://cybersecuritynews-com.cdn.ampproject.org/c/s/cybersecuritynews.com/endpoint-security-tools/?amp
+	  https://www.qualys.com/apps/file-integrity-monitoring/
+	  https://www.tripwire.com/products/tripwire-file-integrity-manager
+	  https://thehackernews.com/2021/05/over-40-apps-with-more-than-100-million.html?m=1
+	  https://www.exabeam.com/information-security/kubernetes-security-monitoring/
+	  https://geekflare.com/kubernetes-security-scanner/#:~:text=Kubesec%20is%20an%20open-source%20Security%20risk%20analysis%20tool,admission%20controller%20in%20Kubernetes%2C%20or%20a%20kubectl%20plugin.
+	  https://techbeacon.com/enterprise-it/top-5-open-source-rpa-frameworks-how-choose
+	  https://www.cncf.io/blog/2021/04/30/kubernetes-tooling-for-techops-and-support-local-kubernetes-clusters/
+	  https://cybersecuritynews.com/scan-linux-servers/
+	  https://github.com/Ignitetechnologies/BurpSuite-For-Pentester
+	  https://istio.io/
+	  https://ethicalhackersacademy.com/blogs/ethical-hackers-academy/active-directory
+	  https://github.com/Azure/SimuLand
+	  https://www.blackhatethicalhacking.com/tools/snallygaster/?__cf_chl_jschl_tk__=5c33c7fc3c108f7c9493050022278450ae1d3391-1621667408-0-AXIsmFUT98yuGFiAhySvfAKYKZqdPKhk5_mhCO0DHrrZ6FqF7SJY8FRq3Gm6HnWeZaef0PcKvpxNbKkH1ibHuM5BIW3LIL0HQJsG-1tfwXsNg7YDksIWCl7a0B6Lf25X7scwEtCzyy3fvBzcG01A8VAjyInUyA-UgrbYK3B_QQzsC1uAL_DyxdD-Kkwu7h6iuIJJ8oFiqMphyCtWXOBBR6vf1ecu4WocbGSRRqTZd7nZUpkRja8DqaFofR33KsrhV2FGESasg5lPD92wEiKeVwCWVmNnDhICNHJ2FGBdJj0Kzq2HMI3j3YsQlgflEBjf9u_hUKRMB4dLyMP4cD8i7zHrCXbnmvphMfm2dDwRq9vGbKAhTgFeaINtW_oTdLWWwhMSxXZooADmeOWcb0SBUFApq1SM_0gbb8W5pZb18_bQ
+	  https://socinvestigation-com.cdn.ampproject.org/c/s/socinvestigation.com/deep-drive-into-darkside-ransomware/amp/
+	  https://www.hackingarticles.in/linux-privilege-escalation-automated-script/
+	  https://arty-hlr.com/blog/2021/05/06/how-to-bypass-defender/
+	  https://www.odi-x.com/news/blog/how-does-cdr-improve-file-security/?utm_source=cyfluencer&utm_medium=influencer_library
+	  https://techcommunity.microsoft.com/t5/intune-customer-success/configuring-bitlocker-encryption-with-endpoint-security/ba-p/2283101
+	  https://ethicalhackersacademy.com/products/certified-redteam-expert?_pos=1&_sid=758439427&_ss=r
+	  https://gbhackers-com.cdn.ampproject.org/c/s/gbhackers.com/network-penetration-testing-checklist-examples/amp/
+	  https://github.com/CyberSecurityUP/Awesome-Cloud-PenTest
+	  https://www-socinvestigation-com.cdn.ampproject.org/c/s/www.socinvestigation.com/dnstwist-tool-proactive-approach-for-handling-phishing-cases/amp/
+	  https://www.socinvestigation.com/linux-audit-logs-cheatsheet-detect-respond-faster/
+	  https://www.socinvestigation.com/threat-hunting-using-dns-logs-soc-incident-response-procedure/
+	  https://hakin9.org/dnsrr-tool-in-bash-dns/
+	  https://github.com/cfalta/PowerShellArmoury
+	  https://freetraining.dfirdiva.com/free-malware-analysis-re-training
+   	  https://www.nsa.gov/What-We-Do/Cybersecurity/Advisories-Technical-Guidance/
+	  https://www.securecoding.com/blog/best-python-open-source-security-tools/	 
+	  https://hakin9.org/darkside-tool-information-gathering-social-engineering/
+	 
