@@ -1,0 +1,32 @@
+
+
+
+	#Penetration Testing Categories:
+
+		Coding (10)
+		Exploitation Techniques (19)
+		External Submissions (3)
+		General Lab Notes (22)
+		Information Gathering (12)
+		Infrastructure (2)
+		Maintaining Access (4)
+		Mobile Pentesting (7)
+		Network Mapping (1)
+		Post Exploitation (13)
+		Red Team (109)
+		Credential Access (3)
+		Defense Evasion (22)
+		Domain Escalation (2)
+		Domain Persistence (1)
+		Lateral Movement (2)
+		Man-in-the-middle (1)
+		Persistence (27)
+		Privilege Escalation (17)
+		Reviews (1)
+		Social Engineering (11)
+		Tools (7)
+		VoIP (4)
+		Web Application (14)
+		Wireless (2)
+		
+	
