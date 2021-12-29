@@ -1,0 +1,30 @@
+
+
+
+
+	File upload vulnerabilities
+	OAuth 2.0 authentication vulnerabilities
+	HTTP Host header attacks
+	Business logic vulnerabilities
+	SQL injection
+	Cross-site scripting
+	Cross-site request forgery (CSRF)
+	XML external entity (XXE) injection
+	Clickjacking (UI redressing)
+	Cross-origin resource sharing (CORS)
+	Server-side request forgery (SSRF)
+	HTTP request smuggling
+	OS command injection
+	Server-side template injection
+	Insecure deserialization
+	Directory traversal
+	Access control vulnerabilities and privilege escalation
+	Authentication vulnerabilities
+	Testing for WebSockets security vulnerabilities
+	DOM-based vulnerabilities
+	Web cache poisoning
+	Information disclosure vulnerabilities
+	
+	
+	
+	
