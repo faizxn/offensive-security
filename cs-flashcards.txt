@@ -1,0 +1,51 @@
+
+
+
+
+ + astaroth 						- is filess malware that process memory. it can steal critical information as keystock and credential
+ + zsteg 							- detect stegano hidden data in image filess
+ + zombie 							- his code inserts itself into other code. regenerates the code and rebuilds the executable
+ + zero-day attack 					- an attack that exploits computer application vulnerabilities before a patch was able to be released
+ + zemana-antilogger 				- a software application that blocks attackers. it detects any attempts to modify your computer settings 
+ + yersinia 							- is a framework for performing layer 2 attacks 
+ + xpath injection					- enter malicious strings in input fields to manipulate query so that it interferes with the application logic
+ + xarp								- a security application that detects ARP-based attacks. It detects critical network attacks that firewalls cannot cover
+ + wrapping attack					- performed during the translation of SOAP message in the TLS layer where attackers duplicate the body of the message 
+												and send it to the server as a legitimate user. 
+			
+ + worm								- malware that can reproduce itself for the purposes of spreading itself to other computers in the network
+ + windows registry					- stores OS and program configuration details such as settings and options
+ + whonix							- a desktop OS designed for advanced security and privacy. It mitigates the threat of common attack vectors while maintaining usability
+ + whisker							- aims to provide privacy security and anonymity on the internet
+ + whaling attack 					- a type of phishing that targets high profile executives like CEO CFO politicians and celebrities who have complete access
+											to confidential and highly valuable information. 
+											
+ + wevtutil							- utility to clear event logs related to the system application and security
+ + wep/wpa encryption				- wireless protocols that are intended to protect the traffic that is sent and received by users over a wireless network.
+ + web shell detector				- a PHP/Python-based script that helps in scanning and discovering php/cgi(perl)/asp/aspx shells 
+											it has a web shells signature database that helps in discovering the web shell".
+			
+ + web shell						- a malicious piece of code or script that is developed using server-side languages such as PHP ASP and Python and installed on a target server.
+ + webhooks							
+			
+ + web data extractor				- a tool that automatically extracts specific information from web pages
+ + web cache poisoning attack		- damages the reliability of an intermediate web cache source. attacker swaps cached content for a random URL with infected content.
+ + web browser pass view			- it is a password recovery tool that captures passwords stored by web browsers	
+ +  
+ 
+ 
+ https://github.com/Cyber-Guy1/BlackDragon		|| An Adavnced Automation Tool For Web-Recon Developed For Linux Systems
+ https://github.com/dagrz/aws_pwn				|| A collection of AWS penetration testing junk
+ https://github.com/flipkart-incubator/Astra		|| Automated Security Testing For REST API's
+ 
+ https://github.com/b374k/b374k					|| PHP Webshell with handy features
+ https://github.com/zed-0xff/zsteg				|| Detect stegano-hidden data in PNG & BMP
+ https://github.com/RUB-NDS/WS-Attacker			|| WS-Attacker is a modular framework for web services penetration testing, 
+ 												It is developed by the Chair of Network and Data Security
+ 
+ 
+ 
+ 
+ 
+ 
+ 
