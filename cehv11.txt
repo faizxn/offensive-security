@@ -40,12 +40,72 @@
 			perform whois footprint
 				- whois lookup using domaintools
 				
-		perform dns footprint
-			- gather dns information using nslookup and online tools
-			- perform reverse dns lookup using reverse ip domain check and dnsrecon
+			perform dns footprint
+				- gather dns information using nslookup and online tools
+				- perform reverse dns lookup using reverse ip domain check and dnsrecon
 					
-		perform network footprinting
+			perform network footprinting
 
+
+	#### vulnerability analysis #### vulnerability assesment scan network for known security weakness. 
+			
+		+ objectives
+				- network vulnerabilities
+				- tcp/udp prts and services that are listening 
+				- application and services configuration errors and vulnerabilities
+				- os version running on computer or devices
+				- application install on computer
+				- accounts with weak passwords
+				- files and folders with weak permission
+				- default services and application that may have to be uninstalled
+				- mistakes in security configuration of common application
+				- computer exposed to known or publicly reported vulnerabilities
+					
+	VA plays a major role in providing security to organization resources and infrastructure from various internal
+				and external threats.  To secure, administrator needs to perform path management.. install proper antivirus..check 
+				configuration and solve known issues in third-party applications with default configuration. 
+				
+		+ tools					
+				- openvas (greenbone security assistant)
+				- nessus
+				- gfi languard
+				- nikto
+						
+						
+	#### system hacking #### is the process of testin computer system and software for security vulnerability.
+			there are four steps in the system hacking
+					1. gaining access
+					2. escalation priviledge
+					3. maintain access
+					4. clearing logs			
+			
+		+ https://github.com/SpiderLabs/Responder     // same network windows spying
+		+ L0phtCrack 									// is a password auditing and recovery application.also used to test password strength	
+		+ Ophcrack
+		+ metasploit		
+					use exploit/multi/handler, set payload windows/meterpreter/reverse_tcp, exploit
+					
+		+ armitage 
+		+ immunity debugger								// check youtube 
+		+ Snow  Steganography 
+		+ openstego Steganography
+	
+	
+	#### malware threats#### malicious software that disable and damage computer system 
+						which includes virus.. trojan.. rootkits.. adware.. keylogger and ransomeware
+
+		+ njrat rat trojan 
+		+ hide trojan using swayscryptor and make it undetecable to antivirus program
+		+ prorat 
+		+ theef rat
+		+ jps virus maker
+		
+		+ malware analysis- (static)
+				virustotal.. bintext.. peid.. pe explorer.. dependency walker.. ida and ollydbg
+				
+		+ malware analysis- (dynamic)			
+				 tcpview..  process monitor.. regshot.. softperfect network scanner.. jv16 powertools..autorun
+				
 
 
 	#### sql injection ####  authentication bypass, authorization bypass, information disclouse, remote code execution
@@ -136,3 +196,4 @@
 		+ perform cryptanlysis using cryptanlysis tools - is a process of finding weaknesses in cryptographic algorithms
 			- cryptool
 			- alphapeeler
+
