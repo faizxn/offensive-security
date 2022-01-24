@@ -1,0 +1,336 @@
+
+
+	#### footprint and reconnaissanc #### extract information about the target organization that includes
+		
+				- organization information (employee details, partner details, webtechnologies)
+				- network information	(domain, subdomain, network block, network toplologies, router and firewall, whois and dns record)
+				- system information (operating system, web server)
+
+		footprint refers to process of collecting information about target network and its enviroment. 
+		
+			it can be categorized into two
+				- passive footprint (involves information without direct interaction)
+				- active footprint (involves information direct interaction)
+	
+			perform footprint using search engines
+				- gather information using advanced google search, video, ftp, iot search engines techniques
+
+			perform footprint using web services
+				- find company domain and sub-domain using netcraft
+				- gathering personal information using people online search
+				- gathering email list using theharvester
+				- gathering information using deep and dark web searching 
+				- determine target os using passive footprinting 
+				
+			perform footprint using social networking site
+				- gathering employee information from linkedin using theharvester
+				- gathering personal information from various social netoworking site using sherlock
+				- gathering information using followerwonk 
+				
+			perform website footprinting
+				- gather information about a target website using ping command
+				- gather information about a target website using website informer
+				- extract company data using web data extrator 
+				- mirror a target website using httrack website copier
+				- gather a wordlist from target website using cewl
+				
+			perform email footprint
+				- gathering information about a target by tracing email using emailtrackerpro
+
+			perform whois footprint
+				- whois lookup using domaintools
+				
+			perform dns footprint
+				- gather dns information using nslookup and online tools
+				- perform reverse dns lookup using reverse ip domain check and dnsrecon
+					
+			perform network footprinting
+
+
+	#### vulnerability analysis #### vulnerability assesment scan network for known security weakness. 
+			
+		+ objectives
+				- network vulnerabilities
+				- tcp/udp prts and services that are listening 
+				- application and services configuration errors and vulnerabilities
+				- os version running on computer or devices
+				- application install on computer
+				- accounts with weak passwords
+				- files and folders with weak permission
+				- default services and application that may have to be uninstalled
+				- mistakes in security configuration of common application
+				- computer exposed to known or publicly reported vulnerabilities
+					
+	VA plays a major role in providing security to organization resources and infrastructure from various internal
+				and external threats.  To secure, administrator needs to perform path management.. install proper antivirus..check 
+				configuration and solve known issues in third-party applications with default configuration. 
+				
+		+ tools					
+				- openvas (greenbone security assistant)
+				- nessus
+				- gfi languard
+				- nikto
+						
+						
+	#### system hacking #### is the process of testin computer system and software for security vulnerability.
+			there are four steps in the system hacking
+					1. gaining access
+					2. escalation priviledge
+					3. maintain access
+					4. clearing logs			
+			
+		+ https://github.com/SpiderLabs/Responder     // same network windows spying
+		+ L0phtCrack 									// is a password auditing and recovery application.also used to test password strength	
+		+ Ophcrack
+		+ metasploit		
+					use exploit/multi/handler, set payload windows/meterpreter/reverse_tcp, exploit
+					
+		+ armitage 
+		+ immunity debugger								// check youtube 
+		+ Snow  Steganography 
+		+ openstego Steganography
+	
+	
+	#### malware threats#### malicious software that disable and damage computer system 
+						which includes virus.. trojan.. rootkits.. adware.. keylogger and ransomeware
+
+		+ njrat rat trojan 
+		+ hide trojan using swayscryptor and make it undetecable to antivirus program
+		+ prorat 
+		+ theef rat
+		+ jps virus maker
+		
+		+ malware analysis- (static)
+				virustotal.. bintext.. peid.. pe explorer.. dependency walker.. ida and ollydbg
+				
+		+ malware analysis- (dynamic)			
+				 tcpview..  process monitor.. regshot.. softperfect network scanner.. jv16 powertools..autorun
+				
+
+
+
+
+	#### sniffing ####  packet sniffing is a process of monitoring and capturin all data packet.
+				there are two (2) types of sniffing  .. 
+					- active sniffing (mac flooding. dns poising. arp poising. dhcp attack. spoofing attack)
+					- passive sniffing ()
+				
+			+ perform active sniffing
+				- mac flooding using macof
+				- layer 2 attacks using yersinia
+				- arp poising using arpspoof
+				- mitm using cain and abel
+				- spoofing mac address using tmac and smac 
+				
+			+ perform network sniffing 
+			
+				- password sniffing using wireshark  (http.request.method==post)
+				- analyse a network using 'capsa network analyzer 
+				- analyse a network using 'steelcentral packet analyzer
+				- analyse a network using 'omnipeek network protocol analyzer
+			
+			+ detect network sniffing
+				- detect arp poising using xarp, nmap and netscantool pro
+			
+
+	
+	#### socail engineering #### the term used for a broad range of malicious activities accomplished through human interactions
+			it uses psychological manipulation to trick users into making security mistakes.
+			
+			+ perform social engineering using various techniques
+				- sniffing users credential using SET (social-engineering toolkit)
+				- perform phishing using 'shellphish
+				
+			+ detect a phishing attack
+				- detect phishing using netcraft 
+				- detect phishing using phishtank
+			
+			+ audit organization security for phishing attack
+				- audit organization phishing attack using OhPhish 
+
+	#### sql injection ####  authentication bypass, authorization bypass, information disclouse, remote code execution
+	
+		+ thre are theree types of sql injection
+
+			1. in-band sql injection (attacker uses same communications channel to perform the attack)
+			2. blind sql injection (an attacker has no error message from the system)
+			3. out-band sql injection (attacker uses different communications channel to perform the attack)
+				
+		+ perform sql injection attacks
+			- perform an sql injection attack on mssql database
+			- perform an sql injection attack on mssql database to exact database using mssql
+			
+		+ detect sql injection vulnerability using tools
+			- detect sql injection vulnerability using dsss
+			- detect sql injection vulnerability using owasp zap
+
+
+	#### denial of service #### is an attack that reduce.restrict or prevent accessibility of system resources to 
+			its legitimate users
+			
+		+ perform dos attack by continously sending a large amount of syn packets
+			- auxilliary/dos/tcp/syncflood
+			- hping3 (S sync. d size. -2 UDP. -a flood source. )  
+			
+					hping3 -S 59.153.100.1 -a 172.16.100.150 -p 22 --flood 
+					hping3 -d 65535 -S -p 22 --flood 59.153.100.1 
+					hping3 -2 -p 53 --flood 59.153.100.1 
+					 	
+		+ perform dos attack (syn flooding. ping of death. udp application layer flood) on target host
+		+ perform ddos attack
+			- hoic 
+			- loic 
+			- udpunicorn
+		
+		+ detect and analyze dos attack traffic
+		+ detect and protect against a ddos attack
+			- anti ddos guardian
+		
+		type of dos/ddos attack
+			+ volume base attack - consume bandwdith of network and service (udp.icmp. ping of death and smurf attack. pulse wave and zero-day attack)
+			+ protocol base attack - firewall.load balancer (syn ack flood. fragment. spoofed session)
+			+ application base attack - making unavailable to legitimate users (http get/post attack. slowloris. udp application)
+
+
+
+
+	#### session hijacking #### attacker take tcp communication session or valid user session in web application
+		two types of session hijacking
+				1. active session hijacking 
+				2. passive session hijacking (hijack a session or monitor and record all traffic in that session)
+				
+		session hijacking can be devided into three broad phases
+				1. tracking the connection
+				2. desynchonizing the connection
+				3. injecting the attacker packet
+		
+			+ perform session hijacking
+				- hijacking session using zap
+				- intercept http traffic using bettercap
+				
+			+ detect session hijacking using wireshark
+
+
+	#### Evading IDS firewall and honeypots #### 
+				
+				
+		+ perform intrusion detection
+			- detect intrusion using snort
+			- detect malicious traffic using honeybot
+		+ evade firewall using various evasion technique
+			- bypass windows firewall using nmap
+			- bypass firewall rule using http/ftp tunneling
+
+
+
+	#### hacking web servers #### 
+	
+		+ footprinting the web server
+			- information gathering using ghost eye
+			- perform web server reconnaissanc using skipfish
+			- footprint a web server using httprecon
+			- footprint a web server using id server
+			- footprint a web server using netcat and telnet
+			- enumurate web server information using nse
+			- uniscan web server fingerprinting in parrot security
+		
+		+ perform web server attack
+			- crack ftp credential using dictionary attack
+			
+
+
+	#### hacking web application #### 
+
+
+		+ footprint the web infrastructure
+			- perform web application reconnaissanc
+			- perform web application reconnaissanc using whatweb
+			- perform web spidering using owasp zap
+			- detect load balancer using various toolkit using 'ibd
+			- indentifies web server directories gobuster | nmap -sV --script=http-enum upaybd.com
+			- perform web application vulnerabilities scanning using vega
+			- identify clickjacking vulnerabilities using iframe
+		
+		+ perform web application attacks
+			- perform brute force attack using burp suite
+			- perform parameter tampering using brup suite
+			- exploit parameter tampering and xss in application
+			- perform cross site request forgery attack
+			- enumerate and hack web application using wpscan and metasploit
+			- expolit rce vulnerabilities to compromise a target web server
+			- exploit a file upload vulnerabilities at different security levels
+			- gain backdoor access via web shell using weevely
+			
+		+ detect web application vulnerabilities using N-Stalker web application scurity scanner
+
+
+
+	#### hacking wireless networks #### 
+		
+
+
+	#### hacking mobile platform #### 
+
+			+ hack android devices 
+				- hack an android device by creating binay payloads using parrot security
+				- harvest users credential using social engineer toolkit
+				- launch dos attack on target machine using loic (low orbit cannon)
+				- exploit the android platform through adb using phonesploit
+				
+			+ secure android devices using various android security tools 
+				- analyse a malicious app using online android analyzer
+				- analyse a malicious app using quixxi vulnerability scanner
+				- secure android devices from malicious app using malwarebytes security
+
+
+	#### iot and ot hacking #### 
+	
+			+ performing iot and ot device footprinting. various phases of iot and ot device hacking
+				- google dork
+				- shodan
+						
+			+ capturing and analyzing traffic between iot devices
+				- mqtt explorer
+			
+			
+
+	#### cloud computing #### delivers various types of services and application over the internet.
+	
+		+ performing S3 bucket enumeration
+			- lazys3
+			- s3scanner
+			
+		+ exploiting misconfiguation S3 bucket
+			- aws cli
+			
+		+ escalating privileges of a target IAM user by exploiting misconfiguation
+		
+
+		
+
+	#### cryptography #### is the techniques of secure communications between sender and receiver. data is encrypted using a secret key. 
+	
+	there are two types of cryptography
+	
+			- symmetric encryption (secret-key, shared-key and private-key) uses same key for encryption and decryption.
+			- asymmetric encryption (public-key) uses different key for encryption and decryption. known as public and private.
+		
+	
+		+ encrypt the information using cryptography tools
+			- hashcalc
+			- md5 calculator
+			- advanced encryption package
+			- bctextencoder 
+
+		+ create self sign certificate
+		+ perform email encryption
+
+		+ perform disk encryption
+			- veracrypt
+			- bitlocker drive encryption
+			- rohos disk encryption
+
+		+ perform cryptanlysis using cryptanlysis tools - is a process of finding weaknesses in cryptographic algorithms
+			- cryptool
+			- alphapeeler
+
