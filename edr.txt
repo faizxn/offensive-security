@@ -1,0 +1,26 @@
+
+
+# EDR security provides an integrated hub for the collection.. correlation and analysis of endpoint data..
+	as well as for coordinating alerts and responses to immediate threats.. EDR tools have three basic components
+	
+	+ Endpoint Data Collection Agents
+	+ Automated Response
+	+ Analysis and Forensics
+	
+			- Realtime Dection and Response (malware and rootkit detection)
+			- Active Response using Firewall Policy benchmarking and support integrating with 3rd party applications
+			- Data collection
+			- Whitelist and blacklist
+
+	macafee.. ossec.. the hive project.. 
+	
+	
+	
+ # Data Loss Prevention (DLP) is a set of tools and processes used to ensure that sensitive data is not lost.. misused or accessed by unauthorized users..
+		there are three types of data loss prevention software
+			- Network 
+			- Endpoint
+			- Cloud 
+	
+	
++Hyper-scale and Heterogeneous Environment
