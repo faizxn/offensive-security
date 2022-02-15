@@ -1,0 +1,63 @@
+
+
+ #> Three main components of SOC (Security Operation Center):
+
+	- people
+		+ SOC manager (a leader is always needed,  lead and manage the whole security operation center)
+		+ Analyst (responsible for performing all the analysis, investigation, and reporting)
+		+ SOC Engineer | Operator 
+
+		
+	- process
+		+ Incident triage process
+		+ Incident reporting process
+		+ Incident analysis process
+		+ Incident closure process
+		+ Post incident activities process
+		+ Vulnerability discovery process
+		+ Vulnerability remediation and tracking
+
+
+	- technology
+		+ SIEM
+		+ EDR/XDR
+		+ IPS/IDS
+		+ Cyber Threat Intelligence Feeds and Databases
+		+ Vulnerability scanners
+		
+		
+		
+ #> 6 Incident Response Plan:
+ 
+		+ Preparation	- with traige exercise
+		+ indentify		- size and scope of the incidents
+		+ Contain		- isolate the compromise devices
+		+ Eradicate		- threat
+		+ Recover		- store to normal service
+		+ Learn  		- lessons from incident and improve future response
+		
+		
+		
+		
+ #> Cybersecurity Threat is a malicious act that seeks to damage data.. steal data or disrupt digital life in general. 
+	
+	10 Most Common Types of Cyber Threats
+	
+		+ Malware (spyware, ransomware, viruses and worms)
+		+ Phishing
+		+ Spear Phishing
+		+ MitM attack
+		+ Trojans
+		+ Ransomware
+		+ DDoS
+		+ Attacks on IoT Devices
+		+ Data Breaches		
+		
+		
+ #> Level of Attacks
+ 
+		+ Application (GET Flood, Slow POST, Slowloris, SQL Injection, )
+		+ Transport 
+		+ Network
+		+ Data Link
+		+ Physical 
