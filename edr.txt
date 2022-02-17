@@ -12,8 +12,7 @@
 			- Data collection
 			- Whitelist and blacklist
 
-	macafee.. ossec.. the hive project.. 
-	
+	macafee.. crowdstrike falcon.. trend micro  
 	
 	
  # Data Loss Prevention (DLP) is a set of tools and processes used to ensure that sensitive data is not lost.. misused or accessed by unauthorized users..
@@ -22,6 +21,7 @@
 			- Endpoint
 			- Cloud 
 	
+ # PAM (Privilege Access Managemet) - ManageServer-PAM360  | CyberARK
 	
 +Hyper-scale and Heterogeneous Environment
 
