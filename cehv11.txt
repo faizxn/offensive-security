@@ -333,7 +333,8 @@
 				- secure android devices from malicious app using malwarebytes security
 
 
-	#### iot and ot hacking #### 
+	#### iot and ot hacking #### IoT devices are basically smart devices which have support for internet connectivity and
+	are able to interact with the other devices over the internet 
 	
 			+ performing iot and ot device footprinting. various phases of iot and ot device hacking
 				- google dork
@@ -344,7 +345,7 @@
 			
 			
 
-	#### cloud computing #### delivers various types of services and application over the internet.
+	#### cloud computing #### delivers various types of services and application over the internet. 
 	
 		+ performing S3 bucket enumeration
 			- lazys3
