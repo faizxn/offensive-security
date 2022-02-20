@@ -322,7 +322,9 @@
 	#### hacking mobile platform #### 
 
 			+ hack android devices 
-				- hack an android device by creating binay payloads using parrot security
+				- hack an android device by creating binay payloads using parrot security 
+					(a binary payload is a set of binary files.. configuration files.. batch or shell scripts)
+					
 				- harvest users credential using social engineer toolkit
 				- launch dos attack on target machine using loic (low orbit cannon)
 				- exploit the android platform through adb using phonesploit
