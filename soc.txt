@@ -1,5 +1,6 @@
 
-
+#> Malware analysis is the process of understanding the behavior and purpose of a suspicious file or URL. 
+	The output of the analysis aids in the detection and mitigation of the potential threat.
 
 
  #> Incident - An unexpected occurance that requires immediate response and actions
