@@ -14,15 +14,21 @@
 
 	macafee.. crowdstrike falcon.. trend micro  
 	
+		
+ # PAM (Privilege Access Managemet) 
+ 
+ 	- Limit root access
+	- SIEM Integration  
+	- Multi Factor Authentication 
+	- Password Vault 
+	- Audit Trails for Compliance
 	
- # Data Loss Prevention (DLP) is a set of tools and processes used to ensure that sensitive data is not lost.. misused or accessed by unauthorized users..
-		there are three types of data loss prevention software
-			- Network 
-			- Endpoint
-			- Cloud 
 	
- # PAM (Privilege Access Managemet) - ManageServer-PAM360  | CyberARK
-	
+ - ManageServer-PAM360  | CyberARK
+
+
+
+
 +Hyper-scale and Heterogeneous Environment
 
 
