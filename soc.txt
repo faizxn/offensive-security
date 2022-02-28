@@ -3,6 +3,34 @@
 	The output of the analysis aids in the detection and mitigation of the potential threat.
 
 
+ #> IoC collects threat information using Threat Intelligence feeds.  
+ 			OTX AlignValut 				   
+			Cisco Telous
+			Google Safe Browsing
+			Minemeld Palo Alto				
+						 
+Threat Intelligence feeds are continuous data streams filled with threat information 
+IoC information form Threat Threat -> SIEM (3rd party integration support) can take threat intel data inputs 
+
+local enviroment with co-relate kore..  
+
+
+
+
+#> SSL/TLS (443) is a standard security protocol that ensures the confidentiality and integrity of data while in transit. 
+		It encrypts the data flow between the web browser and web server. 
+		SSL used symmetric encryption to encrypt data between browser and web server. 
+			
+ #> Certificate Signing Request or (CSR) is encoded information that contains the applicant's information such as a common name
+		a name of an organization.. email address.. city.. state and country. This encoded information is used by certifying authority 
+		(CA) to issue an SSL certificate to the applicant.. 
+		
+	
+ #> PSK (Pre Shared Key) encryption algorithms refer to the symmetric key used to encrypt data between browser and web server.
+		the most commonly used algorithms are AES or Blowfish
+		
+ 
+
  #> Incident - An unexpected occurance that requires immediate response and actions
 	Event -  Any activity is called event
 	Log -  Log file is a file that records events
