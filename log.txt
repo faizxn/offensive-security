@@ -17,7 +17,7 @@
 	+ Event logs
 	+ Server logs
 	+ System logs
-	+ Authorization logs and access logs
+	+ Authorization logs and error/access logs
 	+ Change logs
 	+ Availability logs
 	+ Resource logs
