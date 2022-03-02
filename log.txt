@@ -1,0 +1,26 @@
+
+
+# Where do Log Files Come From?
+
+	+ Applications
+	+ Containers
+	+ Databases
+	+ Firewalls
+	+ Endpoints
+	+ IoT devices
+	+ Networks
+	+ Servers
+	+ Web Services
+
+# Types of Logs - many types of logs exist, including 
+
+	+ Event logs
+	+ Server logs
+	+ System logs
+	+ Authorization logs and access logs
+	+ Change logs
+	+ Availability logs
+	+ Resource logs
+	+ Threat logs
+	
+	
