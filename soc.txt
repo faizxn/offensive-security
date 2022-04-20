@@ -70,6 +70,41 @@ local enviroment with co-relate kore..
 		+ Recover		- store to normal service
 		+ Learn  		- lessons from incident and improve future response
 		
+		
+		
+		Proactive Capabilities
+			Preparation - Design, development, training, and implementation of enterprise-wide IR plan
+						  Creating communication guidelines to enable seamless communication during and after an incident.
+						  
+			Detection	- The objective of this phase is to monitor networks and systems to detect, alert, and report on potential security incidents.
+						  Adopt cyber threat intelligence (CTI) capabilities to develop a comprehensive cyber monitoring program and to support 
+						  ongoing monitoring and detection
+
+			Analysis	- Gathering information and then prioritizing individual incidents and steps for a response.
+						  Forensic preservation and analysis of data to determine the extent and impact of the incident.
+						
+						  During the event of an incident, the incident response team should focus on three areas:
+							 + Endpoint Analysis
+							 + Binary Analysis
+							 + Enterprise Hunting
+
+		
+		Responsive Capabilities
+		
+			Containment
+						- Coordinated Shutdown
+						- Wipe and Rebuild
+						
+			Eradication		
+						- Once you have identified domains or IP addresses leveraged by the malicious actors for command and control,
+						The IR team should remove the known existing threats from the networks.
+			
+			Recovery
+					   - Develop a near-term remediation strategy and roadmap
+						 Focus on resuming normal business operations
+						 Develop a long-term risk mitigation strategy
+						 Document the incident to improve the IR plan and update security measures to avoid such incidents in future
+						 
 			
 		
  #> Cybersecurity Threat is a malicious act that seeks to damage data.. steal data or disrupt digital life in general. 
