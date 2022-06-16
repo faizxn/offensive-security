@@ -1,0 +1,60 @@
+
+
+<PenTest Tools>
+
+# Information Gathering:
+
+    + active information gathering:  touch the devices or talk with employee (vulnerability scan)
+    + passive information gathering: publicly available information (whois, nslookup, google dork)
+
+          dns analysis		   		        : dnsenum, dnsrecon, fierce
+          ips/ids Identification	   		: wafwoof
+          live host identification  		: arping, fping, hping3, masscan
+          network and port scanner 		  : nmap, masscan
+          osint analysis				        : maltego, theharvestor, recong-ng
+          route analysis				        : netdiscover, netmask
+          smb analysis				          : enum4linux, nbtscan, smbmap
+          smtp analysis				          : swaks
+          snmp analysis				          : onesixtyone, snmp-check
+          ssl analysis					        : sslscan, ssldump, sslh, sslyze
+          others					              : dmitry, ike-scan, legion
+
+
+# sniffing and spoofing	: wireshark, Ettercap, responder, netsniff-ng, mimtproxy, tcpreply and macchanger
+      
+# Web Application Analysis : 
+          cms and framework identification	:  wpscan, nmap, and metasploit
+          web application proxies		        :  brup suite, zap
+          web crawlers and directory 		    :  brute force dirb, dirbuster, wfuzz
+          web application scanners		      :  burp suite, sqlmap,  zap, davtest, cadaver, nikto
+          
+
+# Database Assessment		:  sqlite database browser, sqlmap
+
+# Password Attacks:	
+          offline					                    :  jhon, hashcat, ophcrack
+          online					                    :  hydra, ncrack and medusa
+          passing the hash				            :  mimikatz
+          password profiling and wordlist	    :  cewl, crunch, rsmangler
+
+
+# Wireless Attacks:  aircrack-ng, bully, tern wifi cracker, kismet, pixiewps, reaver, wifite
+
+
+# Exploitation Tools: metasploit, msfvenom, searchsploit, routerspolit 
+
+
+# Post Exploitation Tools: 
+          os-backdoors				          :  powersploit, dbd, sdb
+          tunneling and exfiltration		:  proxychains, proxytunnel, ptunnel, dns2tcpc
+
+
+# Web Backdoors: 
+          Weevely, laudanum			: (ls –l /usr/share/landanum)	> aps, aspx, php, jsp
+
+
+
+
+
+
+
