@@ -1,16 +1,16 @@
 
 
-#HTTP Enumeration - Detecting HTTP Methods
 
+
+#HTTP Enumeration - Detecting HTTP Methods
     nmap -Pn -sV -p 80 -T4 --script http-methods --script-args http-methods.test=all uat-merchantops.upay.systems
 
 
 #HTTP Enumeration - Finding Hidden Files And Directories:
-
     nmap -sV -p 80 --script http-enum selfcare.dotinternetbd.com
 
-#Vulnerability Enumeration:
 
+#Vulnerability Enumeration:
     nmap -sV -p21-8080 --script vulners bill.dotinternetbd.com
     
     
