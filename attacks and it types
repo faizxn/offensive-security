@@ -1,0 +1,11 @@
+
+
+# types of computer attacks: malware + ddos + phishing + cross site scripting + mitm + sql-injection + social-engineering-attack
+						
+				+ types of malware: ransomaware + spyware + adware + trojan + spam + keylogger + bots + rootkits + worms
+        
+        + types of ddos :   volume based attack 		>	udp flood + icmp flood..				
+									          protocol based attack 		> 	syn flood..	ping to death..
+						 			          application based attack 	> 	http flood + slowloris +  
+						 			          zero day 					>	unknown vulnerabilities + new attack vectors + 	
+					
