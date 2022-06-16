@@ -13,23 +13,3 @@
 			- Whitelist and blacklist
 
 	macafee.. crowdstrike falcon.. trend micro  
-	
-		
- # PAM (Privilege Access Managemet) 
- 
- 	- Limit root access
-	- SIEM Integration  
-	- Multi Factor Authentication 
-	- Password Vault 
-	- Audit Trails for Compliance
-	
-	
- - ManageServer-PAM360  | CyberARK
-
-
-
-
-+Hyper-scale and Heterogeneous Environment
-
-
-
