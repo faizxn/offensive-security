@@ -12,3 +12,6 @@
 #Vulnerability Enumeration:
 
     nmap -sV -p21-8080 --script vulners bill.dotinternetbd.com
+    
+    
+    
