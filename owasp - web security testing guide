@@ -1,0 +1,66 @@
+
+
+# information gathering 
+	
+	+ using search engine
+	+ fingerprint web server for banner grabbing 
+			- telnet/openssl
+			
+	+ review webserver metafiles for information leakage
+	+ enumerate webapplication on webserver 
+			- host -t ns|mx|a|ptr [url/ip]
+			
+	+ webpage content for information leakage
+			- check metadata/comment on source code
+				- github+waybackurls
+				
+
+ # identify application entry point
+	
+		request  - check all get/post parameters
+		response - if server:big-ip then send multiple request to observed the behavior
+		
+	+ asd (attack surface detector) tools investiage the source code and uncovers the endpoint of a web application
+	
+	
+ # fingerprint web application framework
+	 
+	+ always check robots.txt files
+	+ X-Powered-By: shared server names/services
+	+ find the url path name using brup suite at intruder like facebook.com/$path$
+	
+	
+ # configutaion and deployment management testing
+	
+	+ test http method
+			before test which http method are supports
+				    nmap -p 443 --script http-methods uat-pg.upay.systems
+				
+			change the method by PUT and add test.html, sent it to server
+				    PUT /test.html 
+			if response (200-success and 300-redirect), then confirm by GET request for test.html, the application is vulnerable
+				PUT cant use for web-shell
+		
+			by default, DELETE is not allowed. after using below parameters it will work
+				X-Method-Override 
+				X-Http-Method 
+				X-Http-Method-Override 
+		
+    + HTTP strict transport security
+	
+	+ test file permission
+		review and identify any rogue file permission
+		
+			windows access-enum
+			windows access-chk
+		
+			namei 
+			
+	+ test for subdomain takeover
+		dig
+		recon-ng web reconnaissance
+		theharvester
+		sublist3r
+		dnsrecon
+		owasp amass
+		
