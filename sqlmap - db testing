@@ -61,7 +61,7 @@
 
  # Highlight:
 	
-	--cookie, --flush-session, --comment, --os-shell, --os-command
+	--cookie, --flush-session, --comment, --os-shell, --os-command, --banner --ignore-code 401, 
 	
 	
 
