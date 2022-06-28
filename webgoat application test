@@ -1,0 +1,37 @@
+
+
++ open browser console, check each sections/open network options
+	- try to sql-injection at login section and check the server side response logs
+	- after getting logged-in into application then check session cookies like jwt
+	- check source code what is looking for, as front-end is not always show information like credit-number | phone number 
+
+
++ client side attack | front-end
+	- edit html code from end and send request to server 
+	- client side attack bypass with brup-suite by editing vlaue at repeater
+	- client side attack to change value of submission .. check parms | request > edit with html and update value and send request 
+
++ sql injection
+
++ bypass authentication 
+	- go to console -> network and check the type of security question and find the body and edit the body. 
+
++ jwt vulnerablity
+	- copy access-token after logged after limited priviledged account. then prepare a self-generate access-token using base64
+	  no signature would omit	
+		
+		{"alg": none}
+		{"iat": 1657271505,"admin": "false","user": "Faiz"}
+		
+		eyJhbGciOiBub25lfQ.eyJpYXQiOiAxNjU3MjcxNTA1LCJhZG1pbiI6ICJmYWxzZSIsInVzZXIiOiAiVG9tIn0.
+		
+		
++ insecure login method (sensitive data exposure)
+	- check post request from console after submitting login and see the request and response
+	
+	
++ csrf (cross site request forgey)
+	- 
+  
+  
+  
