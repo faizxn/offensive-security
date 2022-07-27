@@ -1,0 +1,61 @@
+
+
+
+@cia triad:
+  + confidentiality - make sure data is kept secret or private and prevent the unauthorized sharing of data.. 
+  + integrity 		- making sure your data is trustworthy and free from tampering..
+  + availability  	- can be accessed by authenticated users whenever they are needed..
+  
+  
+
+@osi security arhitecture:
+
+	+security attak	- action that compromises the security..
+	
+		+ passive attack  	: dont affect system resources.. monitoring/reads of transmission.. 
+		+ active attack	    : involve some modification of the data stream or creation of fake stream..
+									- masquerade
+									- reply
+									- modification of sms
+									- dos
+		
+	+security mechanism	- detect prevent and recover from security attack..
+  
+						(specific security mechanism)
+									- encipherment
+									- digital signature
+									- access control
+									- data integrity
+									- authentication exchanged
+									- traffic padding
+									- routing control
+									
+						(specific security mechanism)			
+									- trusted functionality
+									- security label
+									- event detection
+									- security audit trail
+									- security recovery
+	
+	
+    +security service - enhance the security counter security and provide service..
+								
+									- authentication (peer entity | data origin)
+									- access control
+									- data confidentiality
+									- data integrity
+									- nonrepudiation
+	
+ 
+ 
+@model for network security
+
+	+ desing an algorithm
+	+ generate the secret information 
+	+ develop methods for distribution and sharing of information
+	+ specify a protocol
+	
+	
+  
+  
+  
