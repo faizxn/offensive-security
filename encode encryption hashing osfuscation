@@ -1,0 +1,23 @@
+
+@Encoding is for maintaining data usability and can be reversed 
+			by employing the same algorithm that encoded the content, i.e. no key is used.
+
+		(HTML Encoding, URL Encoding, Unicode Encoding, Base64 Encoding Hex Encoding, ASCII Encoding)
+	
+
+@Encryption is for maintaining data confidentiality and requires
+			the use of a key (kept secret) in order to return to plaintext..
+
+				
+		i.e  - Caesar Shift Cipher.. each letter of the alphabet is shifted some fixed number.. The shift is named a “ROT" as rotation..   
+	
+@Hashing is for validating the integrity of content by detecting 
+			all modification thereof via obvious changes to the hash output.
+	
+
+@Obfuscation is used to prevent people from understanding the meaning
+			of something and is often used with computer code to help prevent successful
+			reverse engineering and/or theft of a product’s functionality.
+			
+			
+	
