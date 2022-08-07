@@ -1,0 +1,72 @@
+
+<OSCE Offensive Security Certified Expert>
+
+Web Application angle
+  •	https://www.exploit-db.com/papers/13646/
+  •	https://www.exploit-db.com/papers/12992/
+  •	http://blog.safebuff.com/2016/05/26/Bypass-CSRF-Protection-via-XSS/
+
+Backdooring PE
+  •	http://sector876.blogspot.com/2013/03/backdooring-pe-files-part-1.html
+  •	http://sector876.blogspot.ca/2013/03/backdooring-pe-files-part-2.html
+  •	https://v00d00sec.com/2015/09/14/manually-backdooring-windows-executables/
+  •	http://www.abatchy.com/2017/05/introduction-to-manual-backdooring_24.html
+  •	https://www.codeproject.com/Articles/20240/The-Beginners-Guide-to-Codecaves
+
+Bypassing AV
+  •	https://dl.packetstormsecurity.net/papers/bypass/bypassing-av.pdf
+  •	https://pentest.blog/art-of-anti-detection-1-introduction-to-av-detection-techniques/
+
+
+Advanced Exploitation Techniques
+Fuzzing
+  •	https://theitgeekchronicles.files.wordpress.com/2012/05/scapyguide1.pdf
+  •	https://www.blackhat.com/presentations/bh-usa-02/bh-us-02-aitel-spike.ppt
+  •	http://resources.infosecinstitute.com/intro-to-fuzzing/
+
+Assembly and Shellcode basics
+  •	http://www.securitytube-training.com/online-courses/securitytube-linux-assembly-expert/index.html
+  •	http://cs.lmu.edu/~ray/notes/nasmtutorial/
+  •	http://www.cs.virginia.edu/~evans/cs216/guides/x86.html
+  •	http://www.hick.org/code/skape/papers/win32-shellcode.pdf
+  •	https://www.corelan.be/index.php/2010/02/25/exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding/
+  •	http://fuzzysecurity.com/tutorials/expDev/6.html
+
+Stack Based Overflow
+  •	https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/
+  •	https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/
+  •	http://fuzzysecurity.com/tutorials/expDev/1.html
+  •	http://fuzzysecurity.com/tutorials/expDev/2.html
+  •	http://www.securitysift.com/windows-exploit-development-part-1-basics/
+  •	http://www.securitysift.com/windows-exploit-development-part-2-intro-stack-overflow/
+  •	http://www.securitysift.com/windows-exploit-development-part-3-changing-offsets-and-rebased-modules/
+  •	http://www.securitysift.com/windows-exploit-development-part-4-locating-shellcode-jumps/
+
+SEH
+  •	https://www.corelan.be/index.php/2009/07/25/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-3-seh/
+  •	https://www.corelan.be/index.php/2009/07/28/seh-based-exploit-writing-tutorial-continued-just-another-example-part-3b/
+  •	http://fuzzysecurity.com/tutorials/expDev/3.html
+  •	http://www.securitysift.com/windows-exploit-development-part-6-seh-exploits/
+  •	https://dkalemis.wordpress.com/2010/10/27/the-need-for-a-pop-pop-ret-instruction-sequence/
+
+Egghunting
+  •	https://www.corelan.be/index.php/2010/01/09/exploit-writing-tutorial-part-8-win32-egg-hunting/
+  •	http://fuzzysecurity.com/tutorials/expDev/4.html
+  •	http://www.securitysift.com/windows-exploit-development-part-5-locating-shellcode-egghunting/
+  •	https://www.exploit-db.com/docs/18482.pdf
+
+Bypassing ASLR
+  •	https://www.corelan.be/index.php/2009/09/21/exploit-writing-tutorial-part-6-bypassing-stack-cookies-safeseh-hw-dep-and-aslr/
+  •	https://www.exploit-db.com/docs/18744.pdf
+
+Advanced Network Attacks
+  •	https://securityshards.wordpress.com/2016/02/05/bypassing-routers-access-control-list-acl/
+  •	http://www.ipv6.cisco.com/c/en/us/td/docs/ios/sec_data_plane/configuration/guide/12_4/sec_data_plane_12_4_book/sec_fwall_acl_bypass.pdf
+  •	https://0x41.no/hacking-networks-with-snmp/
+  •	https://www.exploit-db.com/papers/13587/
+  •	https://www.symantec.com/connect/articles/cisco-snmp-configuration-attack-gre-tunnel
+  •	https://www.symantec.com/connect/articles/cisco-snmp-configuration-attack-gre-tunnel
+
+Useful Videos
+•	https://www.youtube.com/watch?v=gHISpAZiAm0
+
