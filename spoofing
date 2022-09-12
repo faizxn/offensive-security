@@ -1,0 +1,8 @@
+
+
+* IP Spoofing- is a type of malicious attack where the attacker hides the true source of IP packets to make it difficult to know where they came from. Attacker 
+creates packets.. Changing the source IP address..
+
+* DNS Spoofing- is an attack in which altered DNS records are used to redirect online traffic to a fraudulent website that resembles its intended destination..
+
+* ARP Spoofing- attacker insert malicious mac address to modify legitimate mac address..  
