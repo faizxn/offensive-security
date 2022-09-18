@@ -8,6 +8,8 @@ nmap --script=ipidseq -iR 10000 -p 80 -v 		|| random 1000 zombie ip from interne
 							|| select open port and incremental state ip address ...
 
 
+nmap <dst-ip> -v -p 1-65535 -sS -sV --source-port=22
+
 nmap -Pn -sI <zombie-ip> <dst-ip>  -p 80 -v
 
 
