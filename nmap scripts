@@ -1,5 +1,15 @@
 
 
+nmap -D 59.153.100.1,59.153.100.2 bill.dotinternetbd.com -v			|| random source ip 59.153.100.1/2 - dst-bill.dotinternetbd.com
+nmap -D RND:10 bill.dotinternetbd.com -v					|| random 10 ip address from global..  
+
+
+nmap --script=ipidseq -iR 10000 -p 80 -v 		|| random 1000 zombie ip from internet
+							|| select open port and incremental state ip address ...
+
+
+nmap -Pn -sI <zombie-ip> <dst-ip>  -p 80 -v
+
 
 nmap -v -A 59.153.100.80
 nmap -v -A -p 1-65535 59.153.100.80
