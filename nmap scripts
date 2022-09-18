@@ -14,6 +14,8 @@ nmap -sT -T4 -sV -v -O -p 1-65535 -sC  59.153.100.80 -oX hackers.xml	|| -sC scri
 nmap -sT -T4 -sV -v -O -p 111 --script=nfs*  59.153.100.80 -oX hackers.xml
 
 
+nmap -Pn 59.153.100.80							|| skip ips/firewall
+
 
 #HTTP Enumeration - Detecting HTTP Methods
     nmap -Pn -sV -p 80 -T4 --script http-methods --script-args http-methods.test=all uat-merchantops.upay.systems
