@@ -1,5 +1,20 @@
 
 
+
+nmap -v -A 59.153.100.80
+nmap -v -A -p 1-65535 59.153.100.80
+
+nmap -sT -T4 -sV -v -O -p 1-65535 59.153.100.80 -oX hackers.xml
+		xsltproc hackers.xml -o hacker.html
+
+
+nmap -sT -T4 -sV -v -O -p 1-65535 -sC  59.153.100.80 -oX hackers.xml	|| -sC script defalt load
+		xsltproc hackers.xml -o hacker.html
+
+nmap -sT -T4 -sV -v -O -p 111 --script=nfs*  59.153.100.80 -oX hackers.xml
+
+
+
 #HTTP Enumeration - Detecting HTTP Methods
     nmap -Pn -sV -p 80 -T4 --script http-methods --script-args http-methods.test=all uat-merchantops.upay.systems
 
