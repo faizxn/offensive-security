@@ -1,0 +1,15 @@
+
+
+
+ <how to stay annonymous>
+ 
+ + cisco umbrella or opendns  										|| used to track dns-query 
+ + anonsurf https://github.com/Und3rf10w/kali-anonsurf.git  install sh bash files
+		-anonsurf myip
+		-anonsurf change											|| check what is myip and dnsleaktest
+
+ + macchanger -a eth0 | macchanger -s eth0 | macchanger -l			|| a is change and s is show and l is list vendor name
+ + proxychains 														|| proxychains is buildings in kali	
+
+ 
+ 
