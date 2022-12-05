@@ -1,0 +1,64 @@
+
+
+
+25/tcp open  smtp
+	|_smtp-open-relay: Server is an open relay (14/16 tests)
+	|_smtp-enum-users: root
+
+
+telnet mailx.link3.net 25
+
+	220 mailx.link3.net ESMTP Sendmail 8.14.3/8.14.1; Mon, 5 Dec 2022 10:31:18 +0600
+	VRFY root
+	250 2.1.5 root <root@mailx.link3.net>
+
+
+swaks --to m.faizullah@link3.net --server smtp.link3.net
+
+
+
+Sending a test mail using Gmail’s SMTP server
+
+swaks -t user@example.com -s smtp.gmail.com:587 -tls -a LOGIN
+
+
+
+swaks --to m.faizullah@link3.net --server mailx.link3.net
+=== Trying mailx.link3.net:25...
+=== Connected to mailx.link3.net.
+<-  220 mailx.link3.net ESMTP Sendmail 8.14.3/8.14.1; Mon, 5 Dec 2022 10:27:41 +0600
+ -> EHLO kali
+<-  250-mailx.link3.net Hello 99.254.nuclear.link3.net [203.76.99.254] (may be forged), pleased to meet you
+<-  250-ENHANCEDSTATUSCODES
+<-  250-PIPELINING
+<-  250-EXPN
+<-  250-VERB
+<-  250-8BITMIME
+<-  250-SIZE 40000000
+<-  250-DSN
+<-  250-DELIVERBY
+<-  250 HELP
+ -> MAIL FROM:<root@kali>
+<-  250 2.1.0 <root@kali>... Sender ok
+ -> RCPT TO:<m.faizullah@link3.net>
+<-  250 2.1.5 <m.faizullah@link3.net>... Recipient ok
+ -> DATA
+<-  354 Enter mail, end with "." on a line by itself
+ -> Date: Sun, 04 Dec 2022 23:26:51 -0500
+ -> To: m.faizullah@link3.net
+ -> From: root@kali
+ -> Subject: test Sun, 04 Dec 2022 23:26:51 -0500
+ -> Message-Id: <20221204232651.140755@kali>
+ -> X-Mailer: swaks v20201014.0 jetmore.org/john/code/swaks/
+ ->
+ -> This is a test mailing
+ ->
+ ->
+ -> .
+<-  250 2.0.0 2B54RfV7010541 Message accepted for delivery
+ -> QUIT
+<-  221 2.0.0 mailx.link3.net closing connection
+=== Connection closed with remote host.
+
+
+
