@@ -1,8 +1,4 @@
 
-
-
-
-
 nmap -Pn -sS -A -oX network_scan 59.153.100.0/24
 
 in metaploit
@@ -21,4 +17,11 @@ in metaploit
 	msf6 auxiliary(scanner/portscan/syn) > set RHOSTS	59.153.100.70
 	msf6 auxiliary(scanner/portscan/syn) > run		
 
+	msf6> search smb
+	msf6> use 0
+	msf6 auxiliary(scanner/smb/smb_version) > set THREADS 50		
+	msf6 auxiliary(scanner/smb/smb_version) > set RHOSTS 59.153.100.1
+	msf6 auxiliary(scanner/smb/smb_version) > run
+
+	
 	
