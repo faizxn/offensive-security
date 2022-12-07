@@ -1,0 +1,24 @@
+
+
+
+
+
+nmap -Pn -sS -A -oX network_scan 59.153.100.0/24
+
+in metaploit
+
+	msf6> db_import network_scan
+	msf6> hosts
+	msf6> services
+	
+	msf6> search portscan
+	
+	msf6 auxiliary(scanner/portscan/syn) > set THREADS 50
+	msf6 auxiliary(scanner/portscan/syn) > set PORTS 80
+	msf6 auxiliary(scanner/portscan/syn) > set PORTS 443
+	msf6 auxiliary(scanner/portscan/syn) > run		
+	
+	msf6 auxiliary(scanner/portscan/syn) > set RHOSTS	59.153.100.70
+	msf6 auxiliary(scanner/portscan/syn) > run		
+
+	
