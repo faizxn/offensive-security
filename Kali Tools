@@ -1,0 +1,301 @@
+
+
+
+
+Information Gathering 
+	
+	DNS Analysis
+		+ dnsenum
+		+ dnsrecon
+		+ fierce
+	
+	IDS/IPS Identification
+		+ lbd
+		+ wafw00f
+		
+	Live Host Identification
+		+ arping
+		+ fping 
+		+ hping3
+		+ masscan
+		+ theping6
+		
+	Network and Port Scanners
+		+ masscan
+		+ nmap
+		
+	OSINT Analysis
+		+ spiderfoot
+		+ spiderfoot-cli
+		+ theharvester
+		
+	Route Analysis
+		+ netdiscover
+		+ netmask
+		
+	SMB Analysis
+		+ enum4linux
+		+ nbtscan
+		+ smbmap
+		
+	SMTP Analysis
+		+ swaks
+		
+	SNMP Analysis
+		+ onesixtyone
+		+ snmp-check
+		
+	SSL Analysis
+		+ ssldump
+		+ sslh
+		+ sslscan
+		+ sslyze
+		
+	**
+		+ dmitry
+		+ ike-scan
+		+ legion
+		+ netdiscover
+		+ nmap
+		+ recon-ng
+		+ spiderfoot
+		
+	
+Vulnerability Analysis
+		
+	Fuzzing Tools
+		+ spike-generic
+	
+	OpenVAS Scanner
+		+ openvas
+		
+	VoIP Tools
+		+ voiphopper
+		
+
+Web Application Analysis
+
+	CMS and Framework Identification
+		+ wscan
+		+ Drupwn
+		+ CMSmap
+		
+	Web Application Proxies
+		+ Brupsuite
+		
+	Web Crawlers and Directory BruteForce
+		+ cutycapt
+		+ dirb
+		+ dirbuster
+		+ ffuf
+		+ wfuzz
+		
+	Web Vulnerability Scanners
+		+ brupsuite
+		+ commix
+		+ skipfish
+		+ sqlmap
+		+ wpscan
+
+
+
+
+
+		
+Database Assessment
+		+ SQLite database browser
+		+ sqlmap
+		
+
+Password Attacks
+	
+	Offline Attacks
+		+ chnptw
+		+ hashcat
+		+ hashid
+		+ hash-identifier
+		+ ophcrack-cli
+		+ samdump2
+		
+	Online Attacks
+		+ hydra
+		+ hydra-graphical
+		+ onesixtyone
+		+ patator
+		+ the-pptp-bruter
+		
+	Passing the Hash Tools
+		+ mimikatz
+		+ {pth}-curl-net-rpcclint-smbget-wmic-wmis-xfreerdp
+		+ smbmap
+		
+	Password Profiling and Wordlists
+		+ cewl
+		+ crunch
+		+ rsmangler
+		+ wordlists
+		
+	**
+		+ cewl
+		+ crunch
+		+ hashcat
+		+ jhon the ripper
+		+ medusa
+		+ crack
+		+ ophcrack
+		+ wordlists
+		
+
+
+
+
+
+
+
+
+Wireless Tools
+		+ bully
+		+ fern wifi cracker
+		+ aircrack-ng
+		+ kismet
+		+ pixiewps
+		+ reaver
+		+ wifite
+
+Reverse Engineering
+		+ clang
+		+ clang++
+		+ NASM Shell
+		+ radare2
+		
+
+Exploitation Tools
+		+ crackmapexec
+		+ metasploit framework
+		+ msf payload creator
+		+ searchsploit
+		+ social engineering toolkit
+		+ sqlmap
+		
+
+Sniffing and Spoofing
+	
+	Network Sniffers
+		+ dnschef
+		+ netsniff-ng
+		
+	Spoofing and MITM
+		+ dnschef
+		+ rebind
+		+ sslplit
+		+ tcpreplay
+		
+	**
+		+ etthercap-graphical
+		+ macchanger
+		+ minicom
+		+ mitmproxy
+		+ netsniff-ng
+		+ responder
+		+ wireshark
+		
+
+
+
+
+
+Post Exploitation
+		
+	OS Backdoors
+		+ dbd
+		+ powersploit
+		+ sdb
+	
+	Tunneling and Exfiltration
+		+ dbd
+		+ dns2tcpc
+		+ dns2tcpd
+		+ exe2hex
+		+ iodine
+		+ miredo
+		+ proxychains4
+		+ proxytunnel
+		+ ptunnel
+		+ pwnat
+		+ sslh
+		+ stunnel4
+		+ udptunnel
+		
+	Web Backdoors
+		+ laudaum
+		+ weevely
+		
+	**
+		+ evil-winrm
+		+ exe2hex
+		+ mimikatz
+		+ powershell expire
+		+ proxychains4
+		+ weevely
+		
+Forensics
+
+	Forensic Carving Tools
+		+ magicrescue
+		+ scalpel
+		+ scrounge-ntfs
+		
+	Forensic Imaging Tools
+		+ guymager
+		
+	PDF Forensic Tools
+		+ pdfid
+		+ pdf-parser
+		
+	Sleuth Kit Suite
+		+ autopsy
+		+ blkcalc
+		+ blkcat
+		+ blkls
+		+ blkstat
+		+ ffind
+		+ fls
+		+ fsstat
+		+ hfind
+		+ icat-sleuthkit
+		+ ifind
+		+ ils-sleuthkit
+		+ img_cat
+		+ img_stat
+		+ istat
+		+ jcat
+		+ jls
+		+ mactime-sleuthkit
+		+ mmcat
+		+ mmls
+		+ mmstat
+		+ sigfind
+		+ sorter
+		+ srch_strings
+		+ tsk_comparedir
+		+ tsk_gettimes
+		+ tsk_loaddb
+		+ tsk_recover
+		
+	**
+		autopsy
+		bindwalk
+		bulk_extrator
+		hashdeep
+
+Social Engineering Tools
+		+ msf payload creator
+		+ social engineering toolkit
+		
+
+Reporting Tools
+		+ cutycapt
+		+ faraday start
+		+ pipal
+		+ recordmydesktop
+		
