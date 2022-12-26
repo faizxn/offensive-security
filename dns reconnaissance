@@ -9,3 +9,27 @@ dns reconaissance tools
 	dnsrecon
   
   
+
+
+host zonetransfer.me
+host -t ns zonetransfer.me
+host -t a zonetransfer.me
+host -t mx zonetransfer.me
+
+dig zonetransfer.me
+dig -t ns zonetransfer.me
+dig axfr dotinternetbd.com @ns1.dotinternetbd.com		|| to show all record
+
+dnsenum link3.net
+
+fierce -dns link3.net
+
+
+
+----------------------DNS Brute Forcing-----------------------------
+
+nmap -p53 --script dns-brute dotinternetbd.com
+dnsmap link3.net -w /usr/share/wordlists/SecLists/Discovery/DNS/fierce-hostlist.txt -5
+fierce	-dns link3.net -wordlist /share/wordlists/SecLists/Discovery/DNS/fierce-hostlist
+
+ 
