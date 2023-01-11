@@ -17,7 +17,7 @@
 	sqlmap -u http://testphp.vulnweb.com/  --crawl 3 --technique="U" --batch 	
 	sqlmap -u http://testphp.vulnweb.com/  --crawl 3 --threads 5 --batch 	|| default thread is 1, 5 means high scanning
 	sqlmap -u http://testphp.vulnweb.com/  --crawl 3 --risk 3 	 --batch 	|| 3 for aggresive/offensice payload, default is 1, is regular scan
-	sqlmap -u http://testphp.vulnweb.com/  --crawl 3 --label 5 	 --batch	|| inspect deep like cookie, user-agent, range is 1-5, false positive possible
+	sqlmap -u http://testphp.vulnweb.com/  --crawl 3 --level 5 	 --batch	|| inspect deep like cookie, user-agent, range is 1-5, false positive possible
 	
 	sqlmap -u http://testphp.vulnweb.com/	--crawl 3 --output-dir="root/results" 		--batch			|| stored logs
 	sqlmap -u http://testphp.vulnweb.com/	--crawl 3 --headers="Referer:facebook.com" 	-v 4 			|| add header to modify header payload
