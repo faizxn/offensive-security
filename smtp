@@ -16,6 +16,33 @@ telnet mailx.link3.net 25
 swaks --to m.faizullah@link3.net --server smtp.link3.net
 
 
+swaks --to faizxn@live.com --server mailx.link3.net
+
+
+
+swaks -s mailx.link3.net -f testing@link3.net -t m.faizullah@link3.net --header "Subject: Link3 Mail" --body “Hello World!”
+
+
+
+
+#!/bin/bash
+
+recipients=("m.faizullah@link3.net" "faizxn@gmail.com" "faizxn@live.com" "faizxn@yahoo.com")
+
+for recipient in "${recipients[@]}"; do
+
+  swaks --to "$recipient" --from "testing@link3.net" --server "mailx.link3.net" --header "Subject: Link3 - Testing Subject" --body "Link3 - Testing email body"
+
+done
+
+
+
+
+
+
+
+
+
 
 Sending a test mail using Gmail’s SMTP server
 
